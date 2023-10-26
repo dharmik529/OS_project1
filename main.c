@@ -20,7 +20,7 @@ void create_process(char *args[]){
 
     // Replace the child process with a different program using exec
     // char *args[] = {"ls", "-l", NULL};
-    char *cmd = args[1];
+    char *cmd = args[0];
     execvp(cmd, args);
 
     perror("Exec failed");
@@ -45,14 +45,20 @@ void create_process(char *args[]){
   }
 }
 
-int main(int argc, char **argv) {
-  char *args[3];
+int main(int argc, char *argv[]) {
+  char *args[argc];
   printf("Arg Count: %d\n", argc);
   printf("Args: ");
   for (int i = 0; i < argc; ++i){
     printf("%s ", argv[i]);
     args[i] = argv[i];
   }
+
+  for (int i = 1; i < argc; ++i){
+    args[i-1] = argv[i];
+  }
+  args[argc-1] = NULL;
+
   create_process(args);
 
   return 0;
