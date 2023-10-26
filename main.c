@@ -4,7 +4,7 @@
 #include <sys/types.h>
 #include <sys/wait.h>
 
-void create_process(){
+void create_process(char *args[]){
   pid_t child_pid, wait_pid;
   int status;
 
@@ -19,8 +19,9 @@ void create_process(){
     printf("Child process (PID: %d) is running.\n", getpid());
 
     // Replace the child process with a different program using exec
-    char *args[] = {"ls", "-l", NULL};
-    execvp("ls", args);
+    // char *args[] = {"ls", "-l", NULL};
+    char *cmd = args[1];
+    execvp(cmd, args);
 
     perror("Exec failed");
     exit(1);
@@ -44,8 +45,15 @@ void create_process(){
   }
 }
 
-int main() {
-  create_process();
+int main(int argc, char **argv) {
+  char *args[3];
+  printf("Arg Count: %d\n", argc);
+  printf("Args: ");
+  for (int i = 0; i < argc; ++i){
+    printf("%s ", argv[i]);
+    args[i] = argv[i];
+  }
+  create_process(args);
 
   return 0;
 }
