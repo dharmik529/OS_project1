@@ -1,2 +1,24 @@
-Sun Oct 29 16:01:40 2023
+Sun Oct 29 21:47:50 2023
+ [SUCCESS]: Thread created successfully: =ÿx
+Sun Oct 29 21:47:50 2023
+ [SUCCESS]: Thread is running: Thread1
+Sun Oct 29 21:47:50 2023
+ [SUCCESS]: Thread created successfully: Eÿx
+Sun Oct 29 21:47:50 2023
+ [SUCCESS]: Thread is running: Thread2
+Sun Oct 29 21:48:09 2023
+ [SUCCESS]: Thread created successfully: =ÿ$
+Sun Oct 29 21:48:09 2023
+ [SUCCESS]: Thread is running: Thread1
+Sun Oct 29 21:48:09 2023
+ [SUCCESS]: Thread created successfully: Eÿ$
+Sun Oct 29 21:48:09 2023
+ [SUCCESS]: Thread is running: Thread2
+Sun Oct 29 21:49:17 2023
+ [SUCCESS]: Thread is running: Thread1
+Sun Oct 29 21:49:17 2023
+ [SUCCESS]: Thread created successfully: =?é
+Sun Oct 29 21:49:17 2023
+ [SUCCESS]: Thread created successfully: E?é
+Sun Oct 29 21:49:17 2023
  [SUCCESS]: Thread is running: Thread2
