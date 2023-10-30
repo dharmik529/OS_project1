@@ -22,3 +22,16 @@ Sun Oct 29 21:49:17 2023
  [SUCCESS]: Thread created successfully: E?é
 Sun Oct 29 21:49:17 2023
  [SUCCESS]: Thread is running: Thread2
+Sun Oct 29 22:07:22 2023
+ [SUCCESS]: Thread created successfully: ´c=ÔU
+Sun Oct 29 22:07:22 2023
+ [SUCCESS]: Thread is running: Thread1
+Sun Oct 29 22:07:22 2023
+ [SUCCESS]: Thread created successfully: 
+´c=ÔU
+Sun Oct 29 22:07:22 2023
+ [SUCCESS]: Thread is running: Thread2
+Sun Oct 29 22:26:35 2023
+ [SUCCESS]: Thread created successfully: ‡ùÞý
+Sun Oct 29 22:26:35 2023
+ [SUCCESS]: Thread is running: Thread1
